@@ -1,4 +1,4 @@
-# HNG-TASK1
+# HNG11-TASK1
 Temiteee submission for the hng frontend task stage 1
 ## Skills used in building this website
 
