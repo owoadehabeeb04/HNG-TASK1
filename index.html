@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG 11 STAGE 1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--  Header With Slack Display Name and Profile Picture -->
+    <div class="div_header_name">
+      <h1 class="header_name" data-testid="slackDisplayName">Temiteee</h1>
+    </div>
+    <div class="TheBody">
+      <header class="header desktop">
+        <img
+          src="/images/HNG PICTURE.jpg"
+          alt="Temiteee_image"
+          data-testid="slackProfilePicture"
+        />
+      </header>
+      <header class="header mobile">
+        <img
+          src="/images/HNG PICTURE resized.jpg"
+          alt="Temiteee_image"
+          data-testid="slackProfilePicture"
+        />
+      </header>
+      <!--  Current Time, Day, Email, and Tech Goals -->
+      <section>
+        <h2 class="header_current">
+          Current Day, Current Time and Slack Email
+        </h2>
+        <ul>
+          <li>
+            <p data-testid="currentTimeUTC">
+              Current Time (UTC): <span id="timeOfTheDay"></span>
+            </p>
+          </li>
+          <li>
+            <p data-testid="currentDay">
+              Current Day: <span id="dayOfWeek"></span>
+            </p>
+          </li>
+          <li><p data-testid="slackEmail">owoadehabeeb04@gmail.com</p></li>
+        </ul>
+
+        <h2 class="headerOfGoals">MY GOALS</h2>
+
+        <main class="goals_container parent_container">
+          <div class="child_container tech_goal1">
+            <h1 class="goal_header">
+              Practice Front-End and Back-End Development:
+            </h1>
+            <p>
+              Get hands-on experience with both front-end (HTML, CSS, JavaScript
+              frameworks such as React.Js and Vue.Js) and back-end (server-side
+              languages, APIs, database interactions) development.
+            </p>
+          </div>
+          <div class="child_container tech_goal1">
+            <h1 class="goal_header">Learn and Understand Version Control</h1>
+            <p>
+              I'll like to become proficient with version control systems like
+              Git. Understand branching, merging, creating pull requests,
+              accepting pull request, creating fork, hosting with github pages.
+            </p>
+          </div>
+          <div class="child_container tech_goal1">
+            <h1 class="goal_header">Master Data Structures and Algorithms</h1>
+            <p>
+              Understanding and implementing various data structures (arrays,
+              linked lists, stacks, queues and so on) and algorithms (sorting,
+              searching, dynamic programming, greedy algorithms).
+            </p>
+          </div>
+          <div class="child_container tech_goal1">
+            <h1 class="goal_header">Learn System Design Principles:</h1>
+            <p>
+              Study how to design scalable and efficient systems. Understand
+              concepts like load balancing, caching, database sharding,
+              microservices, and RESTful APIs.
+            </p>
+          </div>
+          <div class="child_container tech_goal1">
+            <h1 class="goal_header">
+              Build and Contribute to Open Source Projects:
+            </h1>
+            <p>
+              Participate in open source projects to gain real-world experience
+              and contribute to the community. This can also help you build a
+              portfolio of your work.
+            </p>
+          </div>
+          <div class="child_container tech_goal1">
+            <h1 class="goal_header">Understand Databases</h1>
+            <p>
+              I'll like to learn about different types of databases (relational,
+              NoSQL) and their use cases. Gain proficiency in database design,
+              normalization, and query optimization.
+            </p>
+          </div>
+          <div class="child_container tech_goal1">
+            <h1 class="goal_header">Work on Soft Skills:</h1>
+            <p>
+              Develop communication, time management, and project management
+              skills. Being able to effectively communicate your ideas and work
+              collaboratively with others is crucial.
+            </p>
+          </div>
+          <div class="child_container tech_goal1">
+            <h1 class="goal_header">Engage in Continuous Learning</h1>
+            <p>
+              Stay updated with the latest trends and advancements in
+              technology. Participate in conferences, workshops, online courses,
+              and read technical blogs and research papers.
+            </p>
+          </div>
+        </main>
+      </section>
+    </div>
+    <!-- various HNG LINKS -->
+    <footer>
+      <a href="https://hng.tech/learn" class="hngLink" data-testid="hngLink"
+        >HNG Learn</a
+      >
+      <a href="https://keyword.dog" class="hngLink" data-testid="keywordLink"
+        >Keyword Dog</a
+      >
+      <a
+        href="https://scrapeanyweb.site"
+        class="hngLink"
+        data-testid="scrapeanywebLink"
+        >Scrape Any Web</a
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
